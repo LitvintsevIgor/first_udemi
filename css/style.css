@@ -31,6 +31,12 @@ h3 {
   height: 46em;
   margin: 0 auto;
 }
+
+.wrapper_second {
+  width: 1220px;
+  height: 46em;
+  margin: 0 auto;
+}
 .top-header {
   display: flex;
   justify-content: space-between;
