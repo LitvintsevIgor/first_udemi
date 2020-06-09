@@ -314,7 +314,7 @@ h3 {
 
 .article {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   justify-content: space-between;
   width: 1220px;
   margin: 0 auto;
@@ -326,6 +326,7 @@ h3 {
 .article_title {
   color: black;
   font-family: "Nunito", sans-serif;
+  text-align: right;
 }
 
 .article_text {
@@ -333,6 +334,7 @@ h3 {
   font-family: "Poppins", sans-serif;
   margin: 1rem 0;
   margin-bottom: 3rem;
+  text-align: right;
 }
 
 .article_action .btn_dark {
@@ -345,6 +347,7 @@ h3 {
 }
 
 .article_woman {
-  height: 40rem;
+  width: 30%;
+  flex-shrink: 0;
   margin-right: 20rem;
 }
